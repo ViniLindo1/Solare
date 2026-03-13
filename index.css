@@ -137,6 +137,7 @@ a{
 
 /* Explicações */
 
+
 .explicação{
     display: flex;
    flex-shrink: 0;
@@ -407,3 +408,4 @@ a{
     display: flex;
 
 }
+
