@@ -20,6 +20,7 @@ nav{
     flex-direction: column;
     margin-top: -80px;
 }
+
 .titulo{
     color: #FFCB0E;
     font-family: "Irish Grover";
@@ -45,6 +46,7 @@ nav{
 
 
 /* Seção jogos */
+
 
 .h2{
     display: flex;
@@ -246,9 +248,11 @@ a{
 .geo{
     margin-inline: 60px;
 }
+
 .espace{
     margin-bottom: 70px;
 }
+
 .arrumação{
     width: 221px;
     height: 52px;
@@ -273,6 +277,7 @@ a{
 
 /* Carrosel */
 
+
 .carrossel {
    margin:  0 auto;
    width: 1200px;
@@ -281,47 +286,58 @@ a{
    border-radius: 16px;
    margin-top: 50px;
 }
+
 .slides {
    width: 400%;
    height: 570px;
    border-radius: 16px;
    display: flex;
 }
+
 .slides input {
    display: none;
 }
+
 .img1{
    width: 25%;
    position: relative;
    transition: 1.5s;
 }
+
 .img1 img{
    width: 1200px;
 }
+
 .img2{
    width: 25%;
    position: relative;
    transition: 1.5s;
 }
+
 .img2 img{
    width: 1200px;
 }
+
 .img3{
    width: 25%;
    position: relative;
    transition: 1.5s;
 }
+
 .img3 img{
    width: 1200px;
 }
+
 .img4{
    width: 25%;
    position: relative;
    transition: 1.5s;
 }
+
 .img4 img{
    width: 1200px;
 }
+
 .nvgmnl {
    position: absolute;
    width: 1200px;
@@ -329,6 +345,7 @@ a{
    display: flex;
    justify-content: center;
 }
+
 .mnlbtn {
    border: 2px solid #FFF;
    padding: 5px;
@@ -336,24 +353,30 @@ a{
    cursor: pointer;
    transition: 1s;
 }
+
 .mnlbtn:not(:last-child) {
    margin-right: 40px;
 }
+
 #radio1:checked ~ .img1 {
    margin-left: 0;
 }
+
 #radio2:checked ~ .img1 {
    margin-left: -25%;
 }
+
 #radio3:checked ~ .img1 {
    margin-left: -50%;
 }
+
 #radio4:checked ~ .img1 {
    margin-left: -75%;
 }
 
 
 /* Criadores */
+
 
 .criadores {
    display: flex;
@@ -382,4 +405,5 @@ a{
     margin-top: 20px;
     margin-bottom: -20px;
     display: flex;
+
 }
