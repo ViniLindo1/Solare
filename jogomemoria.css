@@ -20,6 +20,7 @@ nav{
     flex-direction: column;
     margin-top: -80px;
 }
+
 .titulo{
     color: #FFCB0E;
     font-family: "Irish Grover";
@@ -46,6 +47,7 @@ nav{
 
 /* Seção jogos */
 
+
 .h2{
     display: flex;
     unicode-bidi: isolate;
@@ -66,8 +68,6 @@ nav{
     line-height: normal;
     margin-left: 30px;
 }
-
-
 
 
 /* Cartas */
@@ -116,6 +116,7 @@ nav{
 
 
 /* Criadores */
+
 
 .Retangulo2{
     width: 221px;
@@ -179,4 +180,5 @@ a{
     margin-bottom: -20px;
     display: flex;
 }
+
 
