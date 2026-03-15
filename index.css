@@ -1,0 +1,386 @@
+/* Fundo */
+
+
+body{
+   background: #058E39;
+   background-size: 100%;
+}
+
+
+/* Titulo */
+
+
+nav{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: -80px;
+}
+.titulo{
+    color: #FFCB0E;
+    font-family: "Irish Grover";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 5px;
+}
+
+.titulopng{
+    width: 55px;
+    height: 55px;
+    aspect-ratio: 63.17/63.49;
+}
+
+.linha{
+    width: 1360px;
+    height: 4px;
+    background: rgba(255, 238, 0, 0.93);
+    margin-top: -60px;
+}
+
+
+/* Seção jogos */
+
+.h2{
+    display: flex;
+    unicode-bidi: isolate;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: -35px;
+}
+
+.subtitulo{
+    font-family: "Irish Grover";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 30px;
+}
+
+.seção{
+    display: flex;
+    unicode-bidi: isolate;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.Retangulo1{
+    width: 347px;
+    height: 52px;
+    border-radius: 16px;
+    background: #FE0;
+    margin-inline: 170px;
+}
+
+p{
+    display: flex;
+    margin-inline-start: 40px;
+    margin-top: 5px;
+}
+
+.escrita{
+    color: #5197FF;
+    font-family: "Irish Grover";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.jogos{
+    width: 327px;
+    height: 342px;
+    aspect-ratio: 109/114;
+    border-radius: 16px;
+    margin-inline: 200px;
+}
+
+.Retangulo2{
+    width: 221px;
+    height: 52px;
+    border-radius: 16px;
+    background: #FE0;
+    margin-inline: 235px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.quiz{
+    color: #5197FF;
+    font-family: "Irish Grover";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-inline-start: 25%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* Explicações */
+
+.explicação{
+    display: flex;
+    flex-shrink: 0;
+    border-radius: 16px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.informações{
+    width: 414px;
+    height: 716px;
+    border-radius: 16px;
+    background: #5197FF;
+    margin-right: 30px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.informações img{
+    border-radius: 16px;
+    
+}
+
+.informações h2{
+    color: #FFF;
+    font-family: "Irish Grover";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.informações p{
+    color: #FFF;
+    font-family: Itim;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 309px;
+}
+
+.hydro{
+    margin-inline-start: 55px;
+}
+
+.eoli{
+    margin-inline-start: 85px;
+}
+
+.sol{
+    margin-inline-start: 90px;
+}
+
+.png1{
+    width: 345px;
+    height: 204px;
+    aspect-ratio: 15/8;
+    margin-inline-start: 15px;
+    margin-top: 15px;
+    padding-bottom: 25px;
+}
+
+.png2{
+    width: 347px;
+    height: 244px;
+    aspect-ratio: 64/45;
+    margin-inline-start: 10px;
+}
+.png3{
+    width: 253px;
+    height: 240px;
+    aspect-ratio: 119/127;
+    margin-inline-start: 50px;
+}
+
+.png4{
+    width: 345px;
+    height: 214px;
+    margin-inline: 16px;
+}
+
+.png5{
+    width: 253px;
+    height: 244px;
+    margin-top: -25px;
+    margin-inline: 14%;
+}
+
+.png6{
+    width: 345px;
+    height: 204px;
+    margin-top: -35px;
+}
+
+.bio{
+    margin-inline: 75px;
+}
+
+.mare{
+    margin-inline: 70px;
+    margin-bottom: 20px;
+}
+
+.geo{
+    margin-inline: 60px;
+}
+.espace{
+    margin-bottom: 70px;
+}
+.arrumação{
+    width: 221px;
+    height: 52px;
+    border-radius: 16px;
+    background: #FE0;
+    margin-top: 10px;
+    margin-inline: 55px;
+    display: flex;
+    margin-bottom: -30px;
+}
+
+.Retangulo3{
+    width: 221px;
+    height: 52px;
+    border-radius: 16px;
+    background: #FE0;
+    margin-top: 5px;
+    margin-inline: 55px;
+    display: flex;
+}
+
+
+/* Carrosel */
+
+
+.carrossel {
+   margin:  0 auto;
+   width: 1200px;
+   height: 570px;
+   overflow: hidden;
+   border-radius: 16px;
+   margin-top: 50px;
+}
+.slides {
+   width: 400%;
+   height: 570px;
+   border-radius: 16px;
+   display: flex;
+}
+.slides input {
+   display: none;
+}
+.img1{
+   width: 25%;
+   position: relative;
+   transition: 1.5s;
+}
+.img1 img{
+   width: 1200px;
+}
+.img2{
+   width: 25%;
+   position: relative;
+   transition: 1.5s;
+}
+.img2 img{
+   width: 1200px;
+}
+.img3{
+   width: 25%;
+   position: relative;
+   transition: 1.5s;
+}
+.img3 img{
+   width: 1200px;
+}
+.img4{
+   width: 25%;
+   position: relative;
+   transition: 1.5s;
+}
+.img4 img{
+   width: 1200px;
+}
+.nvgmnl {
+   position: absolute;
+   width: 1200px;
+   margin-top: -40px;
+   display: flex;
+   justify-content: center;
+}
+.mnlbtn {
+   border: 2px solid #FFF;
+   padding: 5px;
+   border-radius: 8px;
+   cursor: pointer;
+   transition: 1s;
+}
+.mnlbtn:not(:last-child) {
+   margin-right: 40px;
+}
+#radio1:checked ~ .img1 {
+   margin-left: 0;
+}
+#radio2:checked ~ .img1 {
+   margin-left: -25%;
+}
+#radio3:checked ~ .img1 {
+   margin-left: -50%;
+}
+#radio4:checked ~ .img1 {
+   margin-left: -75%;
+}
+
+
+/* Criadores */
+
+.criadores {
+   display: flex;
+   flex-wrap: nowrap;
+   flex-direction: row;
+   gap: 10px;
+   align-content: center;
+   justify-content: center;
+   margin-left: -30px;
+}
+
+.nomes{
+    color: #FFF;
+    font-family: "Irish Grover";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.solare{
+    width: 908px;
+    height: 380px;
+    aspect-ratio: 167/84;
+    opacity: 0.75;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    display: flex;
+}
