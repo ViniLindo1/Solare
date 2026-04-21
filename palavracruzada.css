@@ -1,0 +1,197 @@
+/* Fundo */
+
+
+body{
+   background: #058E39;
+   background-size: 100%;
+}
+
+
+/* Titulo */
+
+
+nav{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: -80px;
+}
+.titulo{
+    color: #FFCB0E;
+    font-family: "Irish Grover";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 5px;
+}
+
+.titulopng{
+    width: 55px;
+    height: 55px;
+    aspect-ratio: 63.17/63.49;
+}
+
+.linha{
+    width: 80%;
+    height: 4px;
+    background: rgba(255, 238, 0, 0.93);
+    margin-top: -60px;
+}
+
+
+/* Seção jogos */
+
+.h2{
+    display: flex;
+    unicode-bidi: isolate;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: -35px;
+}
+
+.subtitulo{
+    font-family: "Irish Grover";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 30px;
+}
+
+h4{
+    font-family: "Irish Grover";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 30px;
+}
+
+
+/* Cartas */
+
+
+#grid{
+    display:grid;
+    grid-template-columns: repeat(14,40px);
+    
+    gap:6px;
+    justify-content:center;
+    margin:20px auto;
+}
+
+
+.celula{
+    width:40px;
+    height:40px;
+    background:white;
+    border: 2px solid rgba(255, 238, 0, 0.93);
+    border-radius:6px;
+    font-size:20px;
+    font-weight:bold;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    
+}
+
+.celula.selecionada{
+    background: rgba(255, 238, 0, 0.93);
+    color:white;
+}
+
+.celula.contagem{
+    background: rgba(255, 238, 0, 0.93);
+    color:white;
+}
+
+button{
+    margin-top:20px;
+    padding:12px 25px;
+    font-size:18px;
+    border:none;
+    border-radius:10px;
+    background:#2e7d32;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1b5e20;
+}
+
+
+/* Criadores */
+
+.Retangulo2{
+    width: 188px;
+    height: 32px;
+    border-radius: 16px;
+    background: #FE0;
+    margin-inline: 235px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.quiz{
+    color: #5197FF;
+    font-family: "Irish Grover";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-inline-start: 0%;
+    text-align: center;
+}
+
+.criadores {
+   display: flex;
+   flex-wrap: nowrap;
+   flex-direction: row;
+   gap: 10px;
+   align-content: center;
+   justify-content: center;
+   margin-left: -30px;
+}
+
+.nomes{
+    color: #FFF;
+    font-family: "Irish Grover";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.seção{
+    display: flex;
+    unicode-bidi: isolate;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.solare{
+    width: 808px;
+    height: 377px;
+    aspect-ratio: 167/84;
+    opacity: 0.75;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    display: flex;
+}
