@@ -1,0 +1,63 @@
+/* Fundo */
+
+
+body{
+   background: #058E39;
+   background-size: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form h1{
+   color: #022da1b8;
+    font-family: "Irish Grover";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 5px;
+}
+
+form img{
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 280px;
+    border-radius: 16px;
+}
+
+form input{
+    width: 100%;
+    max-width: 250px;
+    background: #FFCB0E;
+    border-radius: 6px;
+    border: 2px solid #8b6b01;
+    margin-bottom: 15px;
+    outline: none;
+    padding: 10px;
+    color: #5197FF;
+}
+
+form button{
+    width: 100%;
+    max-width: 150px;
+    border: 2px solid #8b6b01;
+    background: #022da1b8;
+    border-radius: 6px;
+    border: none;
+    color: #5197FF;
+    font-family: "Irish Grover";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7.5px;
+    cursor: pointer;
+} 
+
