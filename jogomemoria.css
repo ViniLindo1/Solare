@@ -1,0 +1,448 @@
+/* Fundo */
+
+
+body{
+   background: #058E39;
+   background-size: 100%;
+}
+
+
+/* Titulo */
+
+
+nav{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: -60px;
+}
+
+.titulo{
+    color: #FFCB0E;
+    font-family: "Chelsea Market", system-ui;
+    font-weight: 400;
+    font-style: normal;    
+    font-size: 96px;  
+    padding: 5px;
+}
+
+.titulopng{
+    width: 65px;
+    height: 65px;
+    aspect-ratio: 63.17/63.49;
+}
+
+.linha{
+    width: 80%;
+    height: 4px;
+    background: rgba(255, 238, 0, 0.93);
+    margin-top: -80px;
+}
+
+
+/* Seção jogos */
+
+.h2{
+    display: flex;
+    unicode-bidi: isolate;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: -35px;
+}
+
+.subtitulo{
+    font-size: 48px;
+    margin-left: 30px;
+    font-family: "Bubblegum Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+/* Cartas */
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 100%;
+    height: 300px;
+    border-radius: 16px;
+    position: relative;
+    transition: all 1000ms ease;
+    transform-style: preserve-3d;
+    cursor:pointer;
+}
+
+.face {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    border: 2px solid rgba(218, 228, 21, 0.267);
+}
+
+.front{
+    transform: rotateY(180deg);
+}
+
+.back{
+    backface-visibility: hidden;
+    background-image: url("fundo.png");
+}
+.is-rotating{
+    pointer-events: none;
+}
+
+.reveal-card{
+    transform: rotateY(180deg);
+}
+
+
+/* Ranking */
+
+
+.ranking {
+  width: 300px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #003380;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.618);
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+h4{
+    font-size: 40px;  
+    margin-left: 30px;
+    color: #ffde21;
+    margin: 0 auto;
+    font-family: "Bubblegum Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+li{
+    width: 230px;
+    background-color: #5197FF;
+    list-style-type: none; 
+    padding-left: 15px;            
+    margin: 0;   
+    color: #FE0;
+    font-family: "Aladin", system-ui;
+    font-weight: 400;
+    font-style: normal;   
+    font-size: 28px;
+    margin-top: 10px;    
+    border-radius: 8px;
+    margin-left: 10px;
+    border: 1px solid rgb(108, 79, 255);
+    height: 40px;
+}
+
+h5{
+    list-style-type: none; 
+    padding: 0%;            
+    margin: 0;   
+    color: #0546a8;
+    font-size: 18px;
+    margin-top: -15px;
+    margin-left: 150px; 
+    font-family: "Chelsea Market", system-ui;
+    font-weight: 400;
+    font-style: normal;  
+
+}
+
+.aura{
+    padding: 0%;
+}
+
+
+/* Criadores */
+
+
+.Retangulo2{
+    width: 188px;
+    height: 42px;
+    border-radius: 8px;
+    background: #FE0;
+    margin-inline: 235px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.ref{
+    color: #5197FF;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    font-size: 28px;
+    margin-inline-start: -25%;
+    text-align: center;
+    display: flex;
+    justify-content: center;  
+}
+
+.criadores {
+   display: flex;
+   flex-wrap: nowrap;
+   flex-direction: row;
+   gap: 10px;
+   align-content: center;
+   justify-content: center;
+   margin-left: -30px;
+   margin-top: 40px;
+}
+
+.nomes{
+    color: #FFF;
+    
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.seção{
+    display: flex;
+    unicode-bidi: isolate;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.solare{
+    width: 808px;
+    height: 377px;
+    aspect-ratio: 167/84;
+    opacity: 0.75;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    display: flex;
+}
+
+
+@media (max-width:1300px) {
+/* Fundo */
+
+
+body{
+   background: #058E39;
+   background-size: 100%;
+}
+
+
+/* Titulo */
+
+
+nav{
+    display: flex;
+    padding: 3px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: -15px;
+}
+.titulo{
+    color: #FFCB0E;
+    font-family: "Irish Grover";
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 3px;
+}
+
+.titulopng{
+    width: 35px;
+    height: 35px;
+    aspect-ratio: 63.17/63.49;
+}
+
+.linha{
+    width: 80%;
+    height: 3px;
+    background: rgba(255, 238, 0, 0.93);
+    margin-top: -60px;
+}
+
+
+/* Seção jogos */
+
+
+.h2{
+    display: flex;
+    unicode-bidi: isolate;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: -25px;
+}
+
+.subtitulo{
+    font-family: "Irish Grover";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20px;
+}
+
+
+/* Cartas */
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 100%;
+    height: 300px;
+    border-radius: 16px;
+    position: relative;
+    transition: all 1000ms ease;
+    transform-style: preserve-3d;
+    cursor:pointer;
+}
+
+.face {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    border: 2px solid rgba(218, 228, 21, 0.267);
+}
+
+.front{
+    transform: rotateY(180deg);
+}
+
+.back{
+    backface-visibility: hidden;
+    background-image: url("fundo.png");
+}
+.is-rotating{
+    pointer-events: none;
+}
+
+.reveal-card{
+    transform: rotateY(180deg);
+}
+
+
+/* Criadores */
+
+
+.Retangulo2{
+    width: 168px;
+    height: 22px;
+    border-radius: 16px;
+    background: #FE0;
+    margin-inline: 215px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.quiz{
+    color: #5197FF;
+    font-family: "Irish Grover";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-inline-start: 0%;
+    text-align: center;
+}
+
+.criadores {
+   display: flex;
+   flex-wrap: nowrap;
+   flex-direction: row;
+   gap: 50px;
+   align-content: center;
+   justify-content: center;
+   margin-left: -30px;
+}
+
+.nomes{
+    color: #FFF;
+    font-family: "Irish Grover";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.seção{
+    display: flex;
+    unicode-bidi: isolate;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.solare{
+    width: 608px;
+    height: 227px;
+    aspect-ratio: 167/84;
+    opacity: 0.75;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    display: flex;
+}   
+
+
+}
